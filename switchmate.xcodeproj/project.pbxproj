@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		410D57E71E04B2F800E7D412 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410D57E61E04B2F800E7D412 /* main.swift */; };
+		410D57EE1E04B40B00E7D412 /* Bluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410D57ED1E04B40B00E7D412 /* Bluetooth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		410D57E31E04B2F800E7D412 /* switchmate */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = switchmate; sourceTree = BUILT_PRODUCTS_DIR; };
 		410D57E61E04B2F800E7D412 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		410D57ED1E04B40B00E7D412 /* Bluetooth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bluetooth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				410D57E61E04B2F800E7D412 /* main.swift */,
+				410D57ED1E04B40B00E7D412 /* Bluetooth.swift */,
 			);
 			path = switchmate;
 			sourceTree = "<group>";
@@ -121,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				410D57EE1E04B40B00E7D412 /* Bluetooth.swift in Sources */,
 				410D57E71E04B2F800E7D412 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
